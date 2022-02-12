@@ -16,4 +16,4 @@ const SomeSchema = new Schema({
 });
 ```
 
-Created by Michael with <3 for Stack Backend.
+Created by Michael with <3
