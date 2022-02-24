@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import { Model, Schema } from "mongoose";
 
-class SchemaConstructor {
+export class SchemaConstructor {
 	private type:
 		| StringConstructor
 		| NumberConstructor

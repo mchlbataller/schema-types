@@ -1,6 +1,6 @@
 {
-  "name": "@mchlbataller/schematypes",
-  "version": "1.0.0",
+  "name": "@michaelbataller/schematypes",
+  "version": "1.0.2",
   "description": "Mongoose Schema provider",
   "main": "build/index.ts",
   "repository": "git://github.com/mchlbataller/schema-types.git",
