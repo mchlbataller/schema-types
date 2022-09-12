@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.schemaTypes = void 0;
+exports.schemaTypes = exports.SchemaConstructor = void 0;
 /* eslint-disable @typescript-eslint/ban-types */
 const mongoose_1 = require("mongoose");
 class SchemaConstructor {
@@ -55,4 +55,5 @@ class SchemaConstructor {
         return this;
     }
 }
+exports.SchemaConstructor = SchemaConstructor;
 exports.schemaTypes = new SchemaConstructor();
