@@ -1,8 +1,12 @@
 # SchemaConstructor
 
-Started as a series of objects but got increasingly large to accommodate multiple requirements.
+Enables Joi/yup-like implementation for **mongoose** schemas.
 
-Somewhat looks like Joi, same usage.
+# Quick Start
+## Install
+```sh
+npm install @mchlbataller/schematypes@1.0.4
+```
 
 ## Usage
 
