@@ -21,7 +21,7 @@ export declare class SchemaConstructor {
     };
     ref(ref: string | Model<any, {}, {}>): {
         type: StringConstructor | NumberConstructor | typeof Schema.Types.ObjectId | BooleanConstructor | ArrayConstructor;
-        ref: string | Model<any, {}, {}, {}>;
+        ref: string | Model<any, {}, {}, {}, any>;
     };
     objectId(): this;
 }
